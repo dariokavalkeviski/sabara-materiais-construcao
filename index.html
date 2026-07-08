@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="pt-BR" class="h-full">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiais de Construção Sabará - Tudo para sua obra</title>
+    <meta name="description"
+      content="Materiais de Construção Sabará - Tudo para sua obra do início ao acabamento. Materiais de qualidade, atendimento especializado e entrega rápida em Ponta Grossa - PR.">
+    <meta name="theme-color" content="#C41E2A">
+    <link rel="icon" type="image/jpeg" href="Assets/logo.jpg">
+    <link rel="apple-touch-icon" href="Assets/logo.jpg">
+
+    <!-- Open Graph / redes sociais -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Materiais de Construção Sabará - Tudo para sua obra">
+    <meta property="og:description"
+      content="Materiais de qualidade, atendimento especializado e entrega rápida para sua construção ou reforma em Ponta Grossa - PR.">
+    <meta property="og:image" content="Assets/logo.jpg">
+    <meta property="og:locale" content="pt_BR">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet">
+
+    <!-- Dados estruturados para SEO local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HardwareStore",
+      "name": "Materiais de Construção Sabará",
+      "image": "Assets/logo.jpg",
+      "telephone": "+554432270498",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Avelino Pereira de Campos, 839, Chapada",
+        "addressLocality": "Ponta Grossa",
+        "addressRegion": "PR",
+        "postalCode": "84062-290",
+        "addressCountry": "BR"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": -25.0858, "longitude": -50.20951 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "19:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:30", "closes": "16:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "13:00" }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/mcsabara/",
+        "https://www.facebook.com/mcsabarapg/"
+      ]
+    }
+    </script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { red: '#C41E2A', darkred: '#8B0000', gray: '#2D2D2D', lightgray: '#F5F5F5', yellow: '#F4B400' }
+          },
+          fontFamily: {
+            heading: ['Bebas Neue', 'sans-serif'],
+            body: ['Work Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+    <style>
+    html, body { height: 100%; margin: 0; font-family: 'Work Sans', sans-serif; scroll-behavior: smooth; }
+    section[id] { scroll-margin-top: 88px; }
+    .hero-bg { background: linear-gradient(135deg, rgba(45,45,45,0.94) 0%, rgba(196,30,42,0.88) 100%); }
+    .hero-bg::before, .hero-bg::after { content: ''; position: absolute; border-radius: 9999px; filter: blur(70px); opacity: 0.35; pointer-events: none; animation: float 9s ease-in-out infinite; }
+    .hero-bg::before { width: 320px; height: 320px; background: #F4B400; top: -100px; right: -60px; }
+    .hero-bg::after { width: 260px; height: 260px; background: #C41E2A; bottom: -80px; left: -40px; animation-delay: 2.5s; }
+    @keyframes float { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-22px) scale(1.06); } }
+    .card-hover { transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
+    .card-hover:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .brand-scroll { animation: scroll 20s linear infinite; }
+    #brandCarousel:hover { animation-play-state: paused; }
+    @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 9999; align-items: center; justify-content: center; }
+    .lightbox.active { display: flex; }
+    .whatsapp-float { position: fixed; bottom: 24px; right: 24px; z-index: 999; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+    .nav-link { position: relative; }
+    .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #F4B400; transition: width 0.3s; }
+    .nav-link:hover::after { width: 100%; }
+    #heroVisual { transition: transform 0.2s ease-out; }
+    #testimonialTrack { transition: transform 0.5s ease; }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-bg::before, .hero-bg::after, .whatsapp-float, [class*="animate-[float"] { animation: none !important; }
+      .fade-in, .card-hover, #heroVisual, #testimonialTrack { transition: none !important; }
+    }
+  </style>
+    <style>body { box-sizing: border-box; }</style>
+  </head>
+  <body class="h-full overflow-auto bg-white pb-16 md:pb-0"><!-- Navigation -->
+    <nav id="navbar"
+      class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300">
+      <div
+        class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img src="Assets/logo.jpg" alt="Logo Sabará" class="h-12 w-auto rounded">
+          <div><span
+              class="font-heading text-xl text-white leading-none">SABARÁ
+              MATERIAIS DE CONSTRUÇÃO</span>
+          </div>
+        </div>
+        <div
+          class="hidden md:flex items-center gap-6 text-sm font-medium text-white"><a
+            href="#home" class="nav-link">Home</a> <a href="#sobre"
+            class="nav-link">Sobre</a> <a href="#produtos"
+            class="nav-link">Produtos</a> <a href="#galeria"
+            class="nav-link">Galeria</a> <a href="#contato"
+            class="nav-link">Contato</a> <a href="#orcamento"
+            class="bg-brand-red text-white px-4 py-2 rounded-lg hover:bg-brand-darkred transition">Orçamento</a>
+        </div><button id="menuBtn" class="md:hidden p-2 text-white"
+          aria-expanded="false" aria-controls="mobileMenu"
+          aria-label="Abrir menu"><i
+            data-lucide="menu"
+            class="w-6 h-6"></i></button>
+      </div>
+      <div id="mobileMenu"
+        class="hidden md:hidden bg-black border-t px-4 py-4 space-y-3">
+        <a href="#home" class="block text-white font-medium">Home</a>
+        <a href="#sobre" class="block text-white font-medium">Sobre</a>
+        <a href="#produtos" class="block text-white font-medium">Produtos</a>
+        <a href="#galeria" class="block text-white font-medium">Galeria</a>
+        <a href="#contato" class="block text-white font-medium">Contato</a>
+        <a href="#orcamento"
+          class="block bg-brand-red text-white text-center px-4 py-2 rounded-lg">Orçamento</a>
+      </div>
+    </nav><!-- Hero Section -->
+    <section id="home"
+      class="relative overflow-hidden min-h-[680px] flex flex-col justify-center hero-bg pt-24 pb-0">
+      <div class="absolute inset-0 opacity-20">
+        <svg class="w-full h-full" viewbox="0 0 100 100"
+          preserveaspectratio="none">
+          <defs>
+            <pattern id="grid" width="10" height="10"
+              patternunits="userSpaceOnUse">
+              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white"
+                stroke-width="0.3" />
+            </pattern>
+          </defs><rect width="100" height="100" fill="url(#grid)" />
+        </svg>
+      </div>
+      <div class="relative max-w-7xl mx-auto px-4 w-full">
+        <div class="grid md:grid-cols-2 gap-12 items-center py-10">
+          <div class="fade-in">
+            <div class="flex flex-wrap items-center gap-2 mb-4">
+              <span
+                class="inline-block bg-white/20 text-white text-sm px-3 py-1 rounded-full">📍
+                Região de Ponta Grossa - PR</span>
+              <span id="heroOpenStatus"
+                class="inline-flex items-center gap-1 bg-white/10 text-white text-xs font-semibold px-3 py-1 rounded-full"></span>
+            </div>
+            <h1 id="heroTitle"
+              class="font-heading text-5xl md:text-7xl text-white leading-none mb-4">TUDO
+              PARA SUA OBRA <span class="text-brand-yellow">DO INÍCIO AO
+                ACABAMENTO</span></h1>
+            <p id="heroSubtitle"
+              class="text-white/80 text-lg mb-3 max-w-lg">Materiais de qualidade,
+              atendimento especializado e entrega rápida para sua construção ou
+              reforma.</p>
+            <p class="text-white/90 font-medium mb-8">Temos <span
+                id="rotatingWord"
+                class="inline-block text-brand-yellow font-semibold transition-all duration-300">Cimento</span>
+              e muito mais para sua obra.</p>
+            <div class="flex flex-wrap gap-3"><a href="#orcamento"
+                class="group bg-brand-red hover:bg-brand-darkred text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2"><i
+                  data-lucide="file-text" class="w-5 h-5"></i> Solicitar
+                Orçamento <i data-lucide="arrow-right"
+                  class="w-4 h-4 transition-transform group-hover:translate-x-1"></i></a>
+              <a id="heroWhatsapp"
+                href="https://wa.me/5542999414645?text=Olá! Gostaria de solicitar um orçamento."
+                target="_blank" rel="noopener noreferrer"
+                class="group bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2"><i
+                  data-lucide="phone" class="w-5 h-5"></i> Falar no WhatsApp</a>
+            </div>
+          </div>
+          <div class="hidden md:flex justify-center fade-in">
+            <div id="heroVisual" class="relative w-80 h-80">
+              <div
+                class="absolute inset-0 bg-white/10 rounded-3xl rotate-6"></div>
+              <div
+                class="absolute inset-0 bg-white/5 rounded-3xl -rotate-3"></div>
+              <div
+                class="absolute inset-4 bg-gradient-to-br from-brand-red/30 to-transparent rounded-2xl flex items-center justify-center">
+                <svg width="120" height="120" viewbox="0 0 24 24" fill="none"
+                  stroke="white" stroke-width="1">
+                  <path
+                    d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" /><polyline
+                    points="9 22 9 12 15 12 15 22" /><rect x="7" y="4" width="3"
+                    height="3" rx="0.5" stroke-width="0.8" /><rect x="14" y="4"
+                    width="3" height="3" rx="0.5" stroke-width="0.8" />
+                </svg>
+              </div>
+              <div
+                class="absolute -left-6 top-8 bg-white rounded-xl shadow-lg px-4 py-2 flex items-center gap-2 text-sm font-semibold text-brand-gray animate-[float_6s_ease-in-out_infinite]">
+                <i data-lucide="truck" class="w-4 h-4 text-brand-red"></i>
+                Entrega Rápida</div>
+              <div
+                class="absolute -right-4 bottom-10 bg-white rounded-xl shadow-lg px-4 py-2 flex items-center gap-2 text-sm font-semibold text-brand-gray animate-[float_7s_ease-in-out_infinite]"
+                style="animation-delay:1s">
+                <i data-lucide="shield-check" class="w-4 h-4 text-green-600"></i>
+                Qualidade Garantida</div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 border-t border-white/10 pt-8 pb-10 fade-in"
+          id="statsGrid"></div>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 leading-none">
+        <svg viewbox="0 0 1440 100" class="w-full h-14 md:h-20"
+          preserveaspectratio="none"><path fill="#F5F5F5"
+            d="M0,40 C240,90 480,0 720,30 C960,60 1200,10 1440,50 L1440,100 L0,100 Z" /></svg>
+      </div>
+    </section><!-- Sobre -->
+    <section id="sobre" class="py-20 bg-brand-lightgray">
+      <div
+        class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-in">
+          <div
+            class="bg-gradient-to-br from-brand-gray to-gray-700 rounded-2xl p-8 text-center">
+            <svg width="80" height="80" viewbox="0 0 24 24" fill="none"
+              stroke="white" stroke-width="1" class="mx-auto mb-4">
+              <rect x="2" y="6" width="20" height="14" rx="2" /><path
+                d="M12 6V2M6 6V4M18 6V4" /><path d="M2 10h20" />
+            </svg>
+            <p class="text-white/80 text-sm">Tradição e compromisso com a
+              qualidade</p>
+          </div>
+        </div>
+        <div class="fade-in">
+          <h2
+            class="font-heading text-4xl md:text-5xl text-brand-gray mb-4">TRADIÇÃO
+            E CONFIANÇA PARA CONSTRUIR SEUS SONHOS</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">A Materiais de
+            Construção Sabará é referência na região, oferecendo tudo que você
+            precisa para sua obra com atendimento personalizado e produtos de
+            alta qualidade. Nossa equipe especializada está pronta para orientar
+            você na escolha dos melhores materiais.</p>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Atendimento personalizado</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Produtos de qualidade</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Equipe especializada</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Entregas rápidas</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Compromisso total</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i data-lucide="check-circle"
+                class="w-5 h-5 text-brand-red"></i><span
+                class="text-sm font-medium">Grande estoque</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Produtos -->
+    <section id="produtos" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-8 fade-in">
+          <h2 class="font-heading text-4xl md:text-5xl text-brand-gray">NOSSOS
+            PRODUTOS</h2>
+          <p class="text-gray-500 mt-2">Tudo para sua construção e reforma em um
+            só lugar</p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-2 mb-8 fade-in"
+          id="productFilters"></div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"
+          id="productGrid">
+        </div>
+      </div>
+    </section><!-- Diferenciais -->
+    <section class="py-20 bg-brand-gray">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2 class="font-heading text-4xl md:text-5xl text-white">POR QUE
+            ESCOLHER A SABARÁ?</h2>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          id="differentialsGrid">
+        </div>
+      </div>
+    </section><!-- Galeria -->
+    <section id="galeria" class="py-20 bg-brand-lightgray">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2 class="font-heading text-4xl md:text-5xl text-brand-gray">NOSSA
+            LOJA</h2>
+          <p class="text-gray-500 mt-2">Conheça nossa estrutura</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4" id="galleryGrid">
+        </div>
+      </div>
+    </section><!-- Marcas -->
+    <section class="py-16 bg-white overflow-hidden">
+      <div class="text-center mb-8 fade-in">
+        <h2 class="font-heading text-3xl text-brand-gray">MARCAS QUE
+          TRABALHAMOS</h2>
+      </div>
+      <div class="relative">
+        <div class="flex brand-scroll whitespace-nowrap" id="brandCarousel">
+        </div>
+      </div>
+    </section><!-- Depoimentos -->
+    <section class="py-20 bg-brand-lightgray">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2 class="font-heading text-4xl md:text-5xl text-brand-gray">O QUE
+            NOSSOS CLIENTES DIZEM</h2>
+        </div>
+        <div class="relative max-w-3xl mx-auto fade-in" id="testimonialCarousel">
+          <div class="overflow-hidden">
+            <div class="flex" id="testimonialTrack"></div>
+          </div>
+          <button id="testimonialPrev" aria-label="Depoimento anterior"
+            class="hidden sm:flex absolute left-0 md:-left-12 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-md items-center justify-center text-brand-gray hover:text-brand-red transition"><i
+              data-lucide="chevron-left" class="w-5 h-5"></i></button>
+          <button id="testimonialNext" aria-label="Próximo depoimento"
+            class="hidden sm:flex absolute right-0 md:-right-12 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-md items-center justify-center text-brand-gray hover:text-brand-red transition"><i
+              data-lucide="chevron-right" class="w-5 h-5"></i></button>
+          <div class="flex justify-center gap-2 mt-6" id="testimonialDots"></div>
+        </div>
+      </div>
+    </section><!-- Orçamento -->
+    <section id="orcamento" class="py-20 bg-white">
+      <div class="max-w-3xl mx-auto px-4">
+        <div class="text-center mb-10 fade-in">
+          <h2 class="font-heading text-4xl md:text-5xl text-brand-gray">SOLICITE
+            SEU ORÇAMENTO</h2>
+          <p class="text-gray-500 mt-2">Preencha o formulário e receba seu
+            orçamento pelo WhatsApp</p>
+        </div>
+        <form id="budgetForm"
+          class="bg-brand-lightgray rounded-2xl p-8 shadow-lg fade-in space-y-4">
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label for="fname"
+                class="block text-sm font-medium text-brand-gray mb-1">Nome</label><input
+                id="fname" type="text" required
+                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition"
+                placeholder="Seu nome">
+              <p id="fnameError" class="hidden text-red-600 text-xs mt-1">Por favor, informe seu nome.</p>
+            </div>
+            <div>
+              <label for="fphone"
+                class="block text-sm font-medium text-brand-gray mb-1">Telefone</label><input
+                id="fphone" type="tel" required
+                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition"
+                placeholder="(00) 00000-0000">
+              <p id="fphoneError" class="hidden text-red-600 text-xs mt-1">Por favor, informe um telefone válido.</p>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label for="fcity"
+                class="block text-sm font-medium text-brand-gray mb-1">Cidade</label><input
+                id="fcity" type="text"
+                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition"
+                placeholder="Sua cidade">
+            </div>
+            <div>
+              <label for="fproduct"
+                class="block text-sm font-medium text-brand-gray mb-1">Produto
+                desejado</label><input id="fproduct" type="text"
+                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition"
+                placeholder="Ex: Cimento, Tijolos...">
+            </div>
+          </div>
+          <div>
+            <label for="fmsg"
+              class="block text-sm font-medium text-brand-gray mb-1">Mensagem</label><textarea
+              id="fmsg" rows="4"
+              class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-red focus:ring-2 focus:ring-brand-red/20 outline-none transition resize-none"
+              placeholder="Descreva o que precisa..."></textarea>
+          </div><button type="submit" id="submitBtn"
+            class="w-full bg-brand-red hover:bg-brand-darkred text-white py-4 rounded-lg font-semibold text-lg transition flex items-center justify-center gap-2"><i
+              data-lucide="send" class="w-5 h-5"></i> Solicitar Orçamento via
+            WhatsApp</button>
+          <div id="formSuccess"
+            class="hidden text-center text-green-600 font-medium py-2">
+            ✅ Redirecionando para o WhatsApp...
+          </div>
+        </form>
+      </div>
+    </section><!-- Serviços e Acessibilidade -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12 fade-in">
+          <h2
+            class="font-heading text-4xl md:text-5xl text-brand-gray">FACILIDADES
+            E SERVIÇOS</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="fade-in card-hover bg-brand-lightgray rounded-2xl p-6">
+            <h3
+              class="font-semibold text-xl text-brand-gray mb-4 flex items-center gap-2"><i
+                data-lucide="accessibility" class="w-6 h-6 text-brand-red"></i>
+              Acessibilidade</h3>
+            <ul class="space-y-2 text-gray-600">
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Entrada acessível para
+                cadeira de rodas</li>
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Estacionamento
+                acessível</li>
+            </ul>
+          </div>
+          <div class="fade-in card-hover bg-brand-lightgray rounded-2xl p-6">
+            <h3
+              class="font-semibold text-xl text-brand-gray mb-4 flex items-center gap-2"><i
+                data-lucide="box" class="w-6 h-6 text-brand-red"></i>
+              Serviços</h3>
+            <ul class="space-y-2 text-gray-600">
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Entrega rápida</li>
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Retirada na loja</li>
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Atendimento
+                presencial</li>
+            </ul>
+          </div>
+          <div class="fade-in card-hover bg-brand-lightgray rounded-2xl p-6">
+            <h3
+              class="font-semibold text-xl text-brand-gray mb-4 flex items-center gap-2"><i
+                data-lucide="credit-card" class="w-6 h-6 text-brand-red"></i>
+              Pagamentos</h3>
+            <ul class="space-y-2 text-gray-600">
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Cartão de crédito</li>
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Cartão de débito</li>
+              <li class="flex items-center gap-2"><i data-lucide="check"
+                  class="w-4 h-4 text-brand-red"></i> Pagamento móvel (NFC)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- Contato e Mapa -->
+    <section id="contato" class="py-20 bg-brand-gray">
+      <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+        <div class="fade-in">
+          <h2 class="font-heading text-4xl text-white mb-6">LOCALIZAÇÃO E
+            CONTATO</h2>
+          <div class="space-y-4 text-white/80">
+            <div class="flex items-start gap-3">
+              <i data-lucide="map-pin" class="w-5 h-5 text-brand-red mt-1"></i>
+              <a id="addressText" href="https://www.google.com/maps/search/?api=1&query=R.+Avelino+Pereira+de+Campos%2C+839%2C+Chapada%2C+Ponta+Grossa+-+PR%2C+84062-290"
+                target="_blank" rel="noopener noreferrer" class="hover:text-white transition">R. Avelino Pereira de Campos, 839<br>
+                Chapada, Ponta Grossa - PR, 84062-290</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <i data-lucide="phone" class="w-5 h-5 text-brand-red"></i>
+              <a id="phoneText" href="tel:+554432270498" class="hover:text-white transition">(42) 3227-0498</a>
+              <a id="phoneText2" href="tel:+5542999414645" class="hover:text-white transition">(42) 99941-4645</a>
+            </div>
+            <div class="flex items-start gap-3">
+              <i data-lucide="clock" class="w-5 h-5 text-brand-red mt-1"></i>
+              <div>
+                <p class="font-semibold">Seg-Sex: 07:30–19:00</p>
+                <p class="font-semibold">Sábado: 07:30–16:00</p>
+                <p class="font-semibold">Domingo: 08:30–13:00</p>
+                <span id="openStatus" class="inline-block mt-2 text-xs font-semibold px-2 py-1 rounded-full"></span>
+              </div>
+            </div><a id="contactWhatsapp" href="https://wa.me/5542999414645"
+              target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition mt-4"><i
+                data-lucide="message-circle" class="w-5 h-5"></i> Chamar no
+              WhatsApp</a>
+          </div>
+        </div>
+        <div class="fade-in rounded-2xl overflow-hidden shadow-lg w-full"
+          style="height: 400px;"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.8789852256544!2d-50.20951!3d-25.0858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81734e592babb%3A0x7723a5cff422ef20b!2sMateriais%20de%20Constru%C3%A7%C3%A3o%20Sabar%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            width="100%" height="100%" style="border:0;" allowfullscreen
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section><!-- Footer -->
+    <footer class="bg-brand-gray border-t border-gray-700 py-10">
+      <div
+        class="max-w-7xl mx-auto px-4 grid sm:grid-cols-3 gap-8 text-white/70 text-sm">
+        <div><span
+            class="font-heading text-2xl text-white block mb-2">SABARÁ Materiais
+            de Construção</span>
+          <p>Tudo para sua obra do início ao
+            acabamento.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-3">Links</h4>
+          <div class="space-y-2">
+            <a href="#home"
+              class="block hover:text-brand-red transition">Home</a><a
+              href="#produtos"
+              class="block hover:text-brand-red transition">Produtos</a><a
+              href="#sobre"
+              class="block hover:text-brand-red transition">Sobre</a><a
+              href="#contato"
+              class="block hover:text-brand-red transition">Contato</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-3">Redes Sociais</h4>
+          <div class="flex gap-3"><a href="https://www.instagram.com/mcsabara/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-red transition"><i
+                data-lucide="instagram" class="w-5 h-5"></i></a> <a
+              href="https://www.facebook.com/mcsabarapg/?locale=pt_BR"
+              target="_blank" rel="noopener noreferrer"
+              class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-brand-red transition"><i
+                data-lucide="facebook" class="w-5 h-5"></i></a> <a
+              href="https://wa.me/5542999414645" target="_blank"
+              rel="noopener noreferrer"
+              class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green-600 transition"><i
+                data-lucide="message-circle" class="w-5 h-5"></i></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-7xl mx-auto px-4 mt-8 pt-6 border-t border-gray-700 text-center text-white/50 text-sm">
+        © 2026 Materiais de Construção Sabará. Todos os direitos reservados.
+      </div>
+    </footer><!-- WhatsApp Float --> <a id="whatsappFloat"
+      href="https://wa.me/5542999414645?text=Olá! Gostaria de informações sobre materiais."
+      target="_blank" rel="noopener noreferrer"
+      class="whatsapp-float hidden md:flex w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full items-center justify-center shadow-xl transition">
+      <svg width="28" height="28" viewbox="0 0 24 24" fill="white">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg></a> <!-- Back to top --> <button id="backToTop"
+      aria-label="Voltar ao topo"
+      class="hidden fixed bottom-20 md:bottom-6 left-6 z-[999] w-12 h-12 bg-brand-gray hover:bg-brand-red text-white rounded-full flex items-center justify-center shadow-xl transition"><i
+        data-lucide="arrow-up" class="w-5 h-5"></i></button>
+    <!-- Mobile sticky CTA bar --> <div id="mobileCtaBar"
+      class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-gray-200 shadow-[0_-4px_16px_rgba(0,0,0,0.1)] grid grid-cols-2 divide-x divide-gray-200">
+      <a href="tel:+554432270498"
+        class="flex items-center justify-center gap-2 py-3 text-brand-gray font-semibold text-sm"><i
+          data-lucide="phone" class="w-4 h-4"></i> Ligar</a> <a
+        id="mobileCtaWhatsapp" href="https://wa.me/5542999414645?text=Olá! Gostaria de informações sobre materiais."
+        target="_blank" rel="noopener noreferrer"
+        class="flex items-center justify-center gap-2 py-3 bg-green-600 text-white font-semibold text-sm"><i
+          data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp</a>
+    </div>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <button id="lightboxClose" aria-label="Fechar"
+        class="absolute top-6 right-6 text-white hover:text-brand-yellow transition"><i
+          data-lucide="x" class="w-8 h-8"></i></button>
+      <button id="lightboxPrev" aria-label="Foto anterior"
+        class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-brand-yellow transition"><i
+          data-lucide="chevron-left" class="w-10 h-10"></i></button>
+      <button id="lightboxNext" aria-label="Próxima foto"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-brand-yellow transition"><i
+          data-lucide="chevron-right" class="w-10 h-10"></i></button>
+      <div class="text-center text-white p-8">
+        <div id="lightboxContent" class="max-w-2xl mx-auto"></div>
+      </div>
+    </div>
+    <script>
+    // Config
+    const defaultConfig = {
+      hero_title: 'TUDO PARA SUA OBRA DO INÍCIO AO ACABAMENTO',
+      hero_subtitle: 'Materiais de qualidade, atendimento especializado e entrega rápida para sua construção ou reforma.',
+      whatsapp_number: '5542999414645',
+      address: 'R. Avelino Pereira de Campos, 839<br>Chapada, Ponta Grossa - PR, 84062-290',
+      phone: '(42) 3227-0498',
+      background_color: '#FFFFFF',
+      surface_color: '#F5F5F5',
+      text_color: '#2D2D2D',
+      primary_action_color: '#C41E2A',
+      secondary_action_color: '#16A34A'
+    };
+
+    let appConfig = {...defaultConfig};
+
+    function applyConfig(config) {
+      const c = {...defaultConfig, ...config};
+      appConfig = c;
+
+      const heroSubtitle = document.getElementById('heroSubtitle');
+      const addressText = document.getElementById('addressText');
+      const phoneText = document.getElementById('phoneText');
+      const heroWhatsapp = document.getElementById('heroWhatsapp');
+      const contactWhatsapp = document.getElementById('contactWhatsapp');
+      const whatsappFloat = document.getElementById('whatsappFloat');
+      const mobileCtaWhatsapp = document.getElementById('mobileCtaWhatsapp');
+
+      if (heroSubtitle) heroSubtitle.textContent = c.hero_subtitle;
+      if (addressText) {
+        addressText.innerHTML = c.address;
+        addressText.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.address.replace(/<br\s*\/?>/gi, ', '))}`;
+      }
+      if (phoneText) {
+        phoneText.textContent = c.phone;
+        const digits = c.phone.replace(/\D/g, '');
+        phoneText.href = `tel:+55${digits}`;
+      }
+
+      const waUrl = `https://wa.me/${c.whatsapp_number}`;
+      const waText = '?text=Olá! Gostaria de solicitar um orçamento.';
+      if (heroWhatsapp) heroWhatsapp.href = waUrl + waText;
+      if (contactWhatsapp) contactWhatsapp.href = waUrl;
+      if (whatsappFloat) whatsappFloat.href = waUrl + '?text=Olá! Gostaria de informações sobre materiais.';
+      if (mobileCtaWhatsapp) mobileCtaWhatsapp.href = waUrl + '?text=Olá! Gostaria de informações sobre materiais.';
+    }
+
+    // Apply initial config
+    applyConfig(defaultConfig);
+
+    // Open/closed status badge based on business hours
+    function updateOpenStatus() {
+      const now = new Date();
+      const day = now.getDay(); // 0=Sun..6=Sat
+      const minutes = now.getHours() * 60 + now.getMinutes();
+      const ranges = {
+        0: [[8*60+30, 13*60]],
+        6: [[7*60+30, 16*60]],
+        default: [[7*60+30, 19*60]]
+      };
+      const todayRanges = ranges[day] || ranges.default;
+      const isOpen = todayRanges.some(([start, end]) => minutes >= start && minutes <= end);
+      ['openStatus', 'heroOpenStatus'].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (isOpen) {
+          el.textContent = '🟢 Aberto agora';
+          el.className = el.id === 'heroOpenStatus'
+            ? 'inline-flex items-center gap-1 bg-green-500/20 text-green-300 text-xs font-semibold px-3 py-1 rounded-full'
+            : 'inline-block mt-2 text-xs font-semibold px-2 py-1 rounded-full bg-green-500/20 text-green-400';
+        } else {
+          el.textContent = '🔴 Fechado agora';
+          el.className = el.id === 'heroOpenStatus'
+            ? 'inline-flex items-center gap-1 bg-red-500/20 text-red-300 text-xs font-semibold px-3 py-1 rounded-full'
+            : 'inline-block mt-2 text-xs font-semibold px-2 py-1 rounded-full bg-red-500/20 text-red-400';
+        }
+      });
+    }
+    updateOpenStatus();
+
+    // Rotating word in hero
+    const rotatingWords = ['Cimento', 'Tijolos', 'Tintas', 'Elétrica', 'Hidráulica', 'Ferramentas'];
+    let rotIndex = 0;
+    const rotEl = document.getElementById('rotatingWord');
+    function rotateWord() {
+      if (!rotEl) return;
+      rotEl.style.opacity = '0';
+      rotEl.style.transform = 'translateY(-6px)';
+      setTimeout(() => {
+        rotIndex = (rotIndex + 1) % rotatingWords.length;
+        rotEl.textContent = rotatingWords[rotIndex];
+        rotEl.style.opacity = '1';
+        rotEl.style.transform = 'translateY(0)';
+      }, 300);
+    }
+    setInterval(rotateWord, 2200);
+
+    // Subtle 3D tilt on hero visual (desktop only, no-op on touch)
+    const heroVisual = document.getElementById('heroVisual');
+    const heroSection = document.getElementById('home');
+    if (heroVisual && heroSection) {
+      heroSection.addEventListener('mousemove', (e) => {
+        const rect = heroSection.getBoundingClientRect();
+        const relX = (e.clientX - rect.left) / rect.width - 0.5;
+        const relY = (e.clientY - rect.top) / rect.height - 0.5;
+        heroVisual.style.transform = `perspective(800px) rotateY(${relX * 12}deg) rotateX(${-relY * 12}deg)`;
+      });
+      heroSection.addEventListener('mouseleave', () => {
+        heroVisual.style.transform = 'perspective(800px) rotateY(0deg) rotateX(0deg)';
+      });
+    }
+
+    // Products
+    const products = [
+      {name:'Cimento e Argamassa', icon:'box', category:'Estrutura'},
+      {name:'Tijolos e Blocos', icon:'layers', category:'Estrutura'},
+      {name:'Areia e Brita', icon:'mountain', category:'Estrutura'},
+      {name:'Ferragens', icon:'wrench', category:'Estrutura'},
+      {name:'Tubos e Conexões', icon:'git-branch', category:'Instalações'},
+      {name:'Elétrica', icon:'zap', category:'Instalações'},
+      {name:'Hidráulica', icon:'droplets', category:'Instalações'},
+      {name:'Pisos e Revestimentos', icon:'grid', category:'Acabamento'},
+      {name:'Tintas', icon:'palette', category:'Acabamento'},
+      {name:'Coberturas', icon:'home', category:'Acabamento'},
+      {name:'Acabamentos', icon:'star', category:'Acabamento'},
+      {name:'Ferramentas', icon:'hammer', category:'Ferramentas'}
+    ];
+
+    function renderProducts(filter) {
+      const grid = document.getElementById('productGrid');
+      grid.innerHTML = products
+        .filter(p => filter === 'Todos' || p.category === filter)
+        .map(p => `
+          <div class="group card-hover bg-white border border-gray-100 rounded-xl p-6 text-center cursor-pointer">
+            <div class="w-14 h-14 bg-brand-red/10 group-hover:bg-brand-red rounded-xl flex items-center justify-center mx-auto mb-3 transition-colors"><i data-lucide="${p.icon}" class="w-7 h-7 text-brand-red group-hover:text-white transition-colors"></i></div>
+            <h3 class="font-semibold text-sm text-brand-gray">${p.name}</h3>
+          </div>
+        `).join('');
+      lucide.createIcons();
+    }
+
+    const productCategories = ['Todos', ...new Set(products.map(p => p.category))];
+    document.getElementById('productFilters').innerHTML = productCategories.map((c, i) => `
+      <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium border transition ${i === 0 ? 'bg-brand-red text-white border-brand-red' : 'bg-white text-brand-gray border-gray-200 hover:border-brand-red'}" data-category="${c}">${c}</button>
+    `).join('');
+    document.getElementById('productFilters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.remove('bg-brand-red', 'text-white', 'border-brand-red');
+        b.classList.add('bg-white', 'text-brand-gray', 'border-gray-200');
+      });
+      btn.classList.remove('bg-white', 'text-brand-gray', 'border-gray-200');
+      btn.classList.add('bg-brand-red', 'text-white', 'border-brand-red');
+      renderProducts(btn.dataset.category);
+    });
+    renderProducts('Todos');
+
+    // Differentials
+    const diffs = [
+      {icon:'truck', title:'Entrega Rápida', desc:'Entregamos em toda a região com agilidade.'},
+      {icon:'dollar-sign', title:'Preços Competitivos', desc:'Os melhores preços do mercado.'},
+      {icon:'award', title:'Produtos de Qualidade', desc:'Trabalhamos com as melhores marcas.'},
+      {icon:'users', title:'Atendimento Especializado', desc:'Equipe treinada para ajudar você.'},
+      {icon:'package', title:'Grande Variedade', desc:'Tudo para sua obra em um só lugar.'},
+      {icon:'smartphone', title:'Orçamento via WhatsApp', desc:'Praticidade para solicitar seu pedido.'}
+    ];
+    document.getElementById('differentialsGrid').innerHTML = diffs.map(d => `
+      <div class="bg-white/5 border border-white/10 rounded-xl p-6 text-center fade-in card-hover">
+        <div class="w-14 h-14 bg-brand-red rounded-xl flex items-center justify-center mx-auto mb-4"><i data-lucide="${d.icon}" class="w-7 h-7 text-white"></i></div>
+        <h3 class="text-white font-semibold text-lg mb-2">${d.title}</h3>
+        <p class="text-white/60 text-sm">${d.desc}</p>
+      </div>
+    `).join('');
+
+    // Gallery
+    const gallery = [
+      {title:'Fachada da Loja', img:'https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnCBLmvfXDSLdXZsugQUV3F3ufMD9_8z2MXtTMB00omSY_ozB8d81SujKoyGWRjc7-lBGr-pNBbJf6ZDxYLJsLzJ3uXZiminJD6uwI1CGMDxJ7e88TUjeQ3yixmWH59Bcsk_HN=w600-h450-k-no'},
+      {title:'Interior', img:null},
+      {title:'Estoque', img:null},
+      {title:'Produtos', img:null},
+      {title:'Equipe', img:null},
+      {title:'Entrega', img:null}
+    ];
+    const colors = ['from-red-600 to-red-800','from-gray-600 to-gray-800','from-amber-600 to-amber-800','from-blue-600 to-blue-800','from-green-600 to-green-800','from-purple-600 to-purple-800'];
+    document.getElementById('galleryGrid').innerHTML = gallery.map((item, i) => {
+      if (item.img) {
+        return `
+          <div class="gallery-item card-hover rounded-xl overflow-hidden aspect-square cursor-pointer" data-idx="${i}">
+            <img src="${item.img}" alt="${item.title}" loading="lazy" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('bg-gradient-to-br', '${colors[i]}'); this.style.display='none';">
+          </div>
+        `;
+      } else {
+        return `
+          <div class="rounded-xl overflow-hidden aspect-square bg-gradient-to-br ${colors[i]} flex items-center justify-center">
+            <div class="text-center text-white p-4"><i data-lucide="image" class="w-10 h-10 mx-auto mb-2 opacity-60"></i><p class="font-medium text-sm">${item.title}</p><p class="text-xs text-white/60 mt-1">Foto em breve</p></div>
+          </div>
+        `;
+      }
+    }).join('');
+
+    const photoIndices = gallery.map((g, i) => g.img ? i : null).filter(i => i !== null);
+    let currentPhotoPos = 0;
+    function renderLightbox(pos) {
+      const idx = photoIndices[pos];
+      const item = gallery[idx];
+      document.getElementById('lightboxContent').innerHTML = `<img src="${item.img}" alt="${item.title}" class="max-w-full max-h-[80vh] h-auto rounded-lg mx-auto" loading="lazy"><p class="text-white/70 mt-3 text-sm">${item.title}</p>`;
+      document.getElementById('lightboxPrev').classList.toggle('hidden', photoIndices.length <= 1);
+      document.getElementById('lightboxNext').classList.toggle('hidden', photoIndices.length <= 1);
+    }
+    function openLightbox(idx) {
+      if (!gallery[idx] || !gallery[idx].img) return;
+      currentPhotoPos = photoIndices.indexOf(idx);
+      renderLightbox(currentPhotoPos);
+      document.getElementById('lightbox').classList.add('active');
+    }
+    function lightboxNav(dir) {
+      currentPhotoPos = (currentPhotoPos + dir + photoIndices.length) % photoIndices.length;
+      renderLightbox(currentPhotoPos);
+    }
+    document.querySelectorAll('.gallery-item').forEach(el => {
+      el.addEventListener('click', () => openLightbox(parseInt(el.dataset.idx, 10)));
+    });
+    const lightboxEl = document.getElementById('lightbox');
+    lightboxEl.addEventListener('click', (e) => { if (e.target === lightboxEl) lightboxEl.classList.remove('active'); });
+    document.getElementById('lightboxClose').addEventListener('click', () => lightboxEl.classList.remove('active'));
+    document.getElementById('lightboxPrev').addEventListener('click', () => lightboxNav(-1));
+    document.getElementById('lightboxNext').addEventListener('click', () => lightboxNav(1));
+    document.addEventListener('keydown', (e) => {
+      if (!lightboxEl.classList.contains('active')) return;
+      if (e.key === 'Escape') lightboxEl.classList.remove('active');
+      if (e.key === 'ArrowLeft') lightboxNav(-1);
+      if (e.key === 'ArrowRight') lightboxNav(1);
+    });
+
+    // Brands
+    const brands = ['Votorantim','Quartzolit','Tigre','Tramontina','Suvinil','Gerdau','Deca','Docol','Amanco','Eternit','Fortlev','Schneider'];
+    const brandHTML = brands.map(b => `<span class="inline-block mx-8 px-4 py-2 bg-gray-100 rounded-lg text-gray-600 font-semibold text-sm whitespace-nowrap">${b}</span>`).join('');
+    document.getElementById('brandCarousel').innerHTML = brandHTML + brandHTML;
+
+    // Stats (computed from real data, animated count-up)
+    const statsData = [
+      { value: products.length, suffix: '+', label: 'Categorias de produtos' },
+      { value: brands.length, suffix: '', label: 'Marcas parceiras' },
+      { value: 7, suffix: '', label: 'Dias por semana abertos' }
+    ];
+    document.getElementById('statsGrid').innerHTML = statsData.map((s, i) => `
+      <div class="text-center">
+        <p class="font-heading text-3xl md:text-4xl text-brand-yellow" data-count="${s.value}" data-suffix="${s.suffix}">0${s.suffix}</p>
+        <p class="text-white/60 text-[11px] md:text-sm mt-1">${s.label}</p>
+      </div>
+    `).join('');
+
+    function animateCount(el) {
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suffix || '';
+      const duration = 900;
+      const start = performance.now();
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        el.textContent = Math.round(progress * target) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+    const statsObserver = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('[data-count]').forEach(animateCount);
+          obs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    statsObserver.observe(document.getElementById('statsGrid'));
+
+    // Testimonials carousel
+    const testimonials = [
+      {name:'Anderson R.', text:'Só compro material de construção com eles.'},
+      {name:'Erickson P.', text:'Atendimento excelente,  preço justo e entrega rápida.'},
+      {name:'Flávia L.', text:'Melhor preço de todos ótimos atendentes... parabéns.'}
+    ];
+    function renderTestimonials() {
+      document.getElementById('testimonialTrack').innerHTML = testimonials.map(t => `
+        <div class="w-full flex-shrink-0 px-2">
+          <div class="bg-white rounded-2xl p-8 md:p-10 shadow-lg text-center mx-auto max-w-xl">
+            <i data-lucide="quote" class="w-8 h-8 text-brand-red/30 mx-auto mb-4"></i>
+            <div class="flex justify-center gap-1 mb-4">${'⭐'.repeat(5)}</div>
+            <p class="text-gray-600 italic mb-6 text-lg leading-relaxed">"${t.text}"</p>
+            <p class="font-semibold text-brand-gray">${t.name}</p>
+          </div>
+        </div>
+      `).join('');
+      document.getElementById('testimonialDots').innerHTML = testimonials.map((_, i) => `
+        <button class="testimonial-dot w-2.5 h-2.5 rounded-full transition ${i === 0 ? 'bg-brand-red' : 'bg-gray-300'}" data-idx="${i}" aria-label="Ver depoimento ${i + 1}"></button>
+      `).join('');
+      lucide.createIcons();
+    }
+    renderTestimonials();
+
+    let tIndex = 0;
+    const testimonialTrack = document.getElementById('testimonialTrack');
+    function goToTestimonial(i) {
+      tIndex = (i + testimonials.length) % testimonials.length;
+      testimonialTrack.style.transform = `translateX(-${tIndex * 100}%)`;
+      document.querySelectorAll('.testimonial-dot').forEach((d, i2) => {
+        d.classList.toggle('bg-brand-red', i2 === tIndex);
+        d.classList.toggle('bg-gray-300', i2 !== tIndex);
+      });
+    }
+    document.getElementById('testimonialDots').addEventListener('click', (e) => {
+      const dot = e.target.closest('.testimonial-dot');
+      if (dot) goToTestimonial(parseInt(dot.dataset.idx, 10));
+    });
+    document.getElementById('testimonialPrev').addEventListener('click', () => goToTestimonial(tIndex - 1));
+    document.getElementById('testimonialNext').addEventListener('click', () => goToTestimonial(tIndex + 1));
+
+    const testimonialCarousel = document.getElementById('testimonialCarousel');
+    let testimonialTimer = setInterval(() => goToTestimonial(tIndex + 1), 5000);
+    testimonialCarousel.addEventListener('mouseenter', () => clearInterval(testimonialTimer));
+    testimonialCarousel.addEventListener('mouseleave', () => {
+      testimonialTimer = setInterval(() => goToTestimonial(tIndex + 1), 5000);
+    });
+    let touchStartX = 0;
+    testimonialCarousel.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+    testimonialCarousel.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].screenX - touchStartX;
+      if (Math.abs(dx) > 50) goToTestimonial(tIndex + (dx < 0 ? 1 : -1));
+    }, { passive: true });
+
+    // Form - Validate and submit
+    const budgetForm = document.getElementById('budgetForm');
+    if (budgetForm) {
+      budgetForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const nameInput = document.getElementById('fname');
+        const phoneInput = document.getElementById('fphone');
+        const name = nameInput.value.trim();
+        const phone = phoneInput.value.trim();
+        const city = document.getElementById('fcity').value.trim();
+        const product = document.getElementById('fproduct').value.trim();
+        const msg = document.getElementById('fmsg').value.trim();
+
+        // Validate required fields inline (no blocking alert)
+        const nameError = document.getElementById('fnameError');
+        const phoneError = document.getElementById('fphoneError');
+        const phoneValid = phone.replace(/\D/g, '').length >= 10;
+
+        nameInput.classList.toggle('border-red-500', !name);
+        nameError.classList.toggle('hidden', !!name);
+        phoneInput.classList.toggle('border-red-500', !phoneValid);
+        phoneError.classList.toggle('hidden', phoneValid);
+
+        if (!name || !phoneValid) {
+          (!name ? nameInput : phoneInput).focus();
+          return;
+        }
+
+        const waNumber = appConfig.whatsapp_number || defaultConfig.whatsapp_number;
+        const text = `Olá! Gostaria de um orçamento.\n\nNome: ${name}\nTelefone: ${phone}\nCidade: ${city}\nProduto: ${product}\nMensagem: ${msg}`;
+
+        const formSuccess = document.getElementById('formSuccess');
+        if (formSuccess) {
+          formSuccess.classList.remove('hidden');
+        }
+
+        setTimeout(() => {
+          window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`, '_blank');
+          budgetForm.reset();
+          if (formSuccess) {
+            formSuccess.classList.add('hidden');
+          }
+        }, 800);
+      });
+    }
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    function closeMobileMenu() {
+      mobileMenu.classList.add('hidden');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('hidden') === false;
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+    document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', closeMobileMenu));
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMobileMenu(); });
+    document.addEventListener('click', (e) => {
+      if (!mobileMenu.classList.contains('hidden') && !mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
+    // Navbar: transparent over hero, solid after scroll
+    const navbarEl = document.getElementById('navbar');
+    function updateNavbar() {
+      if (window.scrollY > 40) {
+        navbarEl.classList.add('bg-black/95', 'backdrop-blur-md', 'shadow-lg');
+        navbarEl.classList.remove('bg-transparent');
+      } else {
+        navbarEl.classList.remove('bg-black/95', 'backdrop-blur-md', 'shadow-lg');
+        navbarEl.classList.add('bg-transparent');
+      }
+    }
+    window.addEventListener('scroll', updateNavbar);
+    updateNavbar();
+
+    // Active nav link highlight on scroll
+    const navSections = ['home','sobre','produtos','galeria','contato'];
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle('text-brand-yellow', link.getAttribute('href') === `#${entry.target.id}`);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    navSections.forEach(id => {
+      const section = document.getElementById(id);
+      if (section) sectionObserver.observe(section);
+    });
+
+    // Back to top button
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+      window.addEventListener('scroll', () => {
+        backToTop.classList.toggle('hidden', window.scrollY < 400);
+      });
+      backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+
+    // Scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+    }, {threshold: 0.1});
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Init icons
+    lucide.createIcons();
+  </script>
+  </body>
+</html>
