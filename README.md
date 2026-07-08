@@ -2,7 +2,7 @@
 
 Landing page institucional para a **Materiais de Construção Sabará**, loja de materiais de construção em Ponta Grossa - PR. Site single-page, responsivo, com foco em geração de contato via WhatsApp.
 
-🔗 **Demo:** _adicione aqui o link do GitHub Pages / Vercel / Netlify quando publicar_
+🔗 **Demo:** [dariokavalkeviski.github.io/sabara-materiais-construcao](https://dariokavalkeviski.github.io/sabara-materiais-construcao/)
 
 ## Funcionalidades
 
@@ -28,7 +28,8 @@ Landing page institucional para a **Materiais de Construção Sabará**, loja de
 ```
 ├── index.html        # página completa (markup, estilos e scripts)
 └── Assets/
-    └── logo.jpg       # logo da loja
+    ├── logo.png       # logo da loja (fundo transparente, usada no site)
+    └── logo.jpg       # logo original (fundo preto, mantida como fonte)
 ```
 
 ## Como rodar localmente
