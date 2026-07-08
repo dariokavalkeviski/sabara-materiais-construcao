@@ -2,8 +2,6 @@
 
 Landing page institucional para a **Materiais de Construção Sabará**, loja de materiais de construção em Ponta Grossa - PR. Site single-page, responsivo, com foco em geração de contato via WhatsApp.
 
-🔗 **Demo:** [dariokavalkeviski.github.io/sabara-materiais-construcao](https://dariokavalkeviski.github.io/sabara-materiais-construcao/)
-
 ## Funcionalidades
 
 - Seções: Home, Sobre, Produtos, Diferenciais, Galeria, Marcas parceiras, Depoimentos, Formulário de orçamento, Contato/Mapa
